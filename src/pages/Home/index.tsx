@@ -5,6 +5,7 @@ import { ProductList } from './styles';
 import { api } from '../../services/api';
 import { formatPrice } from '../../util/format';
 import { useCart } from '../../hooks/useCart';
+import Cart from '../Cart';
 
 interface Product {
   id: number;
@@ -44,8 +45,9 @@ const Home = (): JSX.Element => {
   return (
     <ProductList>
       <li>
+        {}
         <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg" alt="Tênis de Caminhada Leve Confortável" />
-        <strong>Tênis de Caminhada Leve Confortável</strong>
+        <strong></strong>
         <span>R$ 179,90</span>
         <button
           type="button"
